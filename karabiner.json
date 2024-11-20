@@ -60,10 +60,6 @@
                     "to": [{ "key_code": "return_or_enter" }]
                 },
                 {
-                    "from": { "key_code": "left_shift" },
-                    "to": [{ "key_code": "vk_none" }]
-                },
-                {
                     "from": { "key_code": "right_shift" },
                     "to": [{ "key_code": "delete_or_backspace" }]
                 }
