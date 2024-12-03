@@ -62,10 +62,6 @@
                 {
                     "from": { "key_code": "right_shift" },
                     "to": [{ "key_code": "delete_or_backspace" }]
-                },
-                {
-                    "from": { "key_code": "japanese_eisuu" },
-                    "to": [{ "key_code": "delete_or_backspace" }]
                 }
             ],
             "virtual_hid_keyboard": {
