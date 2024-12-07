@@ -44,18 +44,8 @@
                     }
                 ]
             },
-            "devices": [
-                {
-                    "disable_built_in_keyboard_if_exists": true,
-                    "identifiers": {
-                        "is_keyboard": true,
-                        "is_pointing_device": true,
-                        "product_id": 21,
-                        "vendor_id": 1278
-                    }
-                }
-            ],
             "name": "Naoya",
+            "selected": true,
             "simple_modifications": [
                 {
                     "from": { "key_code": "caps_lock" },
@@ -66,26 +56,18 @@
                     "to": [{ "key_code": "delete_forward" }]
                 },
                 {
-                    "from": { "key_code": "japanese_eisuu" },
-                    "to": [{ "key_code": "delete_or_backspace" }]
-                },
-                {
                     "from": { "key_code": "japanese_kana" },
                     "to": [{ "key_code": "return_or_enter" }]
                 },
                 {
                     "from": { "key_code": "right_shift" },
                     "to": [{ "key_code": "delete_or_backspace" }]
+                },
+                {
+                    "from": { "key_code": "japanese_eisuu" },
+                    "to": [{ "key_code": "delete_or_backspace" }]
                 }
             ],
-            "virtual_hid_keyboard": {
-                "country_code": 0,
-                "keyboard_type_v2": "jis"
-            }
-        },
-        {
-            "name": "Default",
-            "selected": true,
             "virtual_hid_keyboard": {
                 "country_code": 0,
                 "keyboard_type_v2": "jis"
